@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.slot-machine {
+    text-align: center;
+}
+
+.reels {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.reel {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: white;
+}
+
+#spin-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
